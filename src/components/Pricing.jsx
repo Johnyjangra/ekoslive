@@ -187,7 +187,7 @@ const Pricing = () => {
                 <tr className="mx_966 w-100">
                   <td className="bg_transprnt"></td>
                   <td className="text-center pt_31">
-                    <button className="ff_manrop fw-semibold lh_150 fs_sm clr_white">
+                    <button className="ff_manrop fw-semibold lh_150 fs_sm clr_white btn_orng_hovr">
                       Choose Plan
                     </button>
                   </td>
