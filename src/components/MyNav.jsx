@@ -16,23 +16,11 @@ const MyNav = () => {
   return (
     <section className="nav_bg_blur py_20 position-relative z-3">
       <Container>
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="d-flex justify-content-between">
           <img className="curser_pointr w_xsm_43" src={logo} alt="logo" />
-          <div className="bg_blur w_398 w_xl_70 w_xxl_229 d-flex flex-row justify-content-between align-items-center px-4 d-lg-block d-none">
+          <div className="bg_blur w_398 w_xl_70 w_xxl_229 d-flex flex-row justify-content-between align-items-center px-4 ">
             <input
               className="nav_input border-0 ff_ralway fs_sm clr_white op_06 w_80 d-xl-block d-none"
-              type="search"
-              placeholder="Search here..."
-            />
-            <img
-              className="h_26 w_26 curser_pointr "
-              src={search}
-              alt="search"
-            />
-          </div>
-          <div className="bg_blur w_398 w_sm_69 w_md_245 d-flex flex-row justify-content-between align-items-center px-4 d-lg-none d-block py-2">
-            <input
-              className="nav_input border-0 ff_ralway fs_sm clr_white op_06 w_80 d-sm-block d-none"
               type="search"
               placeholder="Search here..."
             />
